@@ -12,8 +12,8 @@ public class day2 {
             while(scanner.hasNextLine()){
                 String[] line = scanner.nextLine().split(" ");
                 ArrayList<Integer> nums = new ArrayList<Integer>();
-                for(int i = 0; i < line.length; i++){
-                    nums.add(Integer.parseInt(line[i]));
+                for(String s : line){
+                    nums.add(Integer.parseInt(s));
                 }
                 boolean safe = false;
                 for(int i = 0; i < nums.size(); i++){
