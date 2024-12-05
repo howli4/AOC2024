@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class day2 {
     public static void main(String[] args) {
         try{
-            Scanner scanner = new Scanner(new File("src/day2/list.txt"));
+            Scanner scanner = new Scanner(new File("src/day2/input.txt"));
             int count = 0;
             while(scanner.hasNextLine()){
                 String[] line = scanner.nextLine().split(" ");
